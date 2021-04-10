@@ -19,3 +19,5 @@ This application is configured with two SPRING profiles:
 - "local": For local dev environments.
 - "cloud": For dockerized environments, where application properties are set by ENV variables.
 
+Start the spring boot application and browser the swagger/openapi UI http://localhost:8080/actuate/swagger-ui.html
+
