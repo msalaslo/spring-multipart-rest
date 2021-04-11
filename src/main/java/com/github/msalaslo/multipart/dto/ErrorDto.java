@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProcessOptions {
+public class ErrorDto {
 
-	private boolean decompress;
+	private String code;
+	private String description;
 }
