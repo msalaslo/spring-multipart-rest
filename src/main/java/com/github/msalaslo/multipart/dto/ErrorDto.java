@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ErrorDto {
 
-	private String code;
-	private String description;
+    private long timestamp;
+    private String code;
+    private String description;
 }

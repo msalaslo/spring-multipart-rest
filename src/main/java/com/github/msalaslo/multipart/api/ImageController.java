@@ -45,6 +45,7 @@ public class ImageController {
 
 	}
 
+	/**
 	@Operation(summary = "Receives a set of images and return analytics about them")
 	@ApiResponses(value = { 
 			@ApiResponse(responseCode = "200", description = "Images processed succesfully", content = @Content(mediaType = "application/json", schema = @Schema(implementation = ImageAnalyticsResponse.class))),
@@ -60,4 +61,5 @@ public class ImageController {
 		return new ResponseEntity<>(imageService.processImages(id, files, processOptions), HttpStatus.OK);
 
 	}
+	*/
 }
